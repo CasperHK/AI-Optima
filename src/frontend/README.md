@@ -1,75 +1,49 @@
-# Nuxt Minimal Starter
+# AI Optima – Frontend
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Welcome to the frontend of **AI Optima**, an AI benchmark website built with Nuxt 3.
 
-## Setup
+## 🚀 Features
+- Modern, responsive UI with a sticky top navigation bar
+- Home page with hero section and call-to-action
+- Ready for AI model benchmark listings and insights
 
-Make sure to install dependencies:
+## 🛠️ Setup
+Install dependencies:
 
 ```bash
-# npm
-npm install
-
-# pnpm
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+## 🧑‍💻 Development
+Start the development server at [http://localhost:3000](http://localhost:3000):
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
 pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
-
+## 🏗️ Production
 Build the application for production:
 
 ```bash
-# npm
-npm run build
-
-# pnpm
 pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+Preview the production build locally:
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
 pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## 📁 Project Structure
+- `app/` – Main app and page components
+- `public/` – Static assets (favicon, robots.txt, etc.)
+- `nuxt.config.ts` – Nuxt configuration
+- `package.json` – Project dependencies and scripts
+
+## 📚 Learn More
+- [Nuxt Documentation](https://nuxt.com/docs/getting-started/introduction)
+- [Deployment Guide](https://nuxt.com/docs/getting-started/deployment)
+
+---
+
+Feel free to contribute or suggest improvements!

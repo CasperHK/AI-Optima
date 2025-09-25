@@ -1,15 +1,5 @@
 <template>
-  <nav class="navbar">
-    <div class="container">
-      <div class="logo">AI Optima</div>
-      <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Benchmarks</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
+  <TopNav />
   <main class="main-content">
     <section class="hero">
       <h1>Welcome to AI Optima</h1>
@@ -19,8 +9,14 @@
   </main>
 </template>
 
-<script setup lang="ts">
-// No logic for demo
+<script lang="ts">
+import { defineComponent } from 'vue'
+import TopNav from '../components/TopNav.vue'
+
+export default defineComponent({
+  name: 'PagesHome',
+  components: { TopNav }
+})
 </script>
 
 <style scoped>

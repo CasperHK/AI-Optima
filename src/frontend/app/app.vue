@@ -1,6 +1,14 @@
 <template>
-  <div>
+  <NuxtLayout>
     <NuxtRouteAnnouncer />
-    <NuxtPage />
-  </div>
+    <NuxtPage page-key="static" />
+  </NuxtLayout>
 </template>
+
+<script setup>
+
+</script>
+
+<style>
+body { background:#808080; }
+</style>
